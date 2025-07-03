@@ -4,7 +4,9 @@ const Search = ({ searchText, setSearchText }) => {
   return (
     <div className="search">
       <div>
-        <img src="public/assets/search.svg" alt="search" />
+        <span className="text-lg text-gray-200 mr-3">
+          <i className="fa fa-search"></i>
+        </span>
 
         <input
           type="text"

@@ -26,7 +26,10 @@ const MovieCard = ({ movie }) => {
 
         <div className="content">
           <div className="rating">
-            <img src="src/assets/star.svg" alt="Star Icon" />
+            <span className="text-5xl">
+              <i className="fa fa-star text-yellow-500"></i>
+            </span>
+
             <p>{vote_average ? vote_average.toFixed(1) : "N/A"}</p>
           </div>
 

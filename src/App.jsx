@@ -104,7 +104,10 @@ const App = () => {
 
       <div className="wrapper">
         <header>
-          <img src="public/assets/hero.png" alt="Hero Banner" />
+          <img
+            src="https://moodflix-sandy.vercel.app/hero.png"
+            alt="Hero Banner"
+          />
           <h1>
             Find <span className="text-gradient">Movies</span> You'll Enjoy
             Without the Hassle
